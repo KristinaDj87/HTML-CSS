@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #504c56;
+}
+/*************CONTAINER******************/
+.container {
+    width: 90%;
+    margin: auto;
+}
+/*************HEADER********************/
+header {
+    background-image: url(img/background-image.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    background-image: url(img/dog.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 80px;
+    padding: 20px 0; 
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #575757;   
+    cursor: pointer;
+}
+.logo:hover {
+    background-image: url(img/cat.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 0 50px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul a {
+    text-transform: uppercase;
+    color: #1b1e24;
+    text-decoration: none;
+    padding-left: 70px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-shadow: 5px 5px 5px #575757;
+}
+nav ul a:hover {
+    color: #fafafa;
+    transition: .3s ease;
+}
+hgroup {
+    text-align: left;
+    padding: 50px 20px;
+}
+hgroup h1 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+hgroup h3 {
+    padding: 10px 50px;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+hgroup h4 {
+    padding: 10px 50px;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+hgroup h5 {
+    padding: 10px 50px;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+/**********SECTION****************/
+.animals {
+    display: flex;
+    align-items: center;
+}
+.animals img {
+    width: 100%;
+}
+.animals .col {
+    flex: 1;
+}
+.animals .col:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+.animals h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px 0;
+    text-shadow: 5px 5px 5px #575757;
+    color: #695519;
+}
+.animals p {
+    text-indent: 50px;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    text-align: justify;
+    padding-right: 50px;
+    color: #907218;
+}
+.read-more {
+    font-size: 1.1rem;
+    color: #575757;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #575757;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 0 50px 0;
+    border-radius: 25px;
+    background-color: #faff14;
+}
+.read-more:visited {
+    color: #287d17;
+}
+.read-more:hover {
+    color: #695519;
+    background-color: #fff;
+    transition: ease .4s;
+}
+.read-more:active {
+    color: #faff14;
+}
+/**************DOG CAT BUNNY**************/
+.dog-cat-bunny {
+    display: flex;
+}
+.icon-text {
+    width: 33%;
+    text-align: justify;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.icon-text:nth-child(2) {
+    margin-top: -5px;
+}
+.icon-text h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #695519;
+    text-shadow: 3px 3px 3px #575757;
+    font-size: 1.5rem;
+}
+.icon-text p {
+    justify-content: space-around;
+    width: 90%;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/******************BACKGROUND IMAGES*******************/
+.more-animals {
+    background: rgb(247, 249, 219);
+}
+
+.more-animals h2 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 3px #575757;
+    text-align: center;
+}
+.more-animals p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding: 50px 0;
+}
+.more-animals .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.more-animals article {
+    width: 30%;
+    margin-bottom: 70px;
+    border-bottom: 10px solid #695519;
+    box-shadow: 3px 3px 3px;
+}
+.img1 {
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.img2 {
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.img3 {
+    background-image: url(img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.img4 {
+    background-image: url(img/img4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.img5 {
+    background-image: url(img/img5.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 600px;
+}
+
+.img6 {
+    background-image: url(img/img6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.img7 {
+    background-image: url(img/img7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.img8 {
+    background-image: url(img/img8.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.img9 {
+    background-image: url(img/img9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.more-animals h4 {
+    font-size: 1.3rem;
+    background: rgb(247, 249, 219);
+    display: inline-block;
+    padding: 10px 20px;
+    color: #695519;  
+    box-shadow: 3px 3px 3px #575757;
+}
+/*BUTTON*/
+.more-animals a {
+    text-decoration: none;
+    color: #695519;
+}
+.more-animals a:hover {
+    color: #287d17;
+    transition: ease .3s;
+}
+.more-animals a:visited {
+    color: #e53232;
+}
+.more-animals a:active {
+    color: #faff14;
+}
+
+/***********FOOTER**********/
+.footer {
+    background: #f7fc92;
+    text-align: center;
+}
+.footer h1 {
+    font-size: 3rem;
+    margin: 0 0 50px 0;
+    padding-top: 20px;
+    border-bottom: 8px solid #695519;
+    display: inline-block;
+    color: #000;
+}
+.footer article {
+    width: 100%;
+    padding-bottom: 20px; 
+    text-align: justify;
+    padding-left: 80px;
+}
+.footer h3 {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color: #000;
+}
+.footer p {
+    border-bottom: 1px dotted #695519;
+    display: inline;
+    font-size: 1.1rem;
+}
+.bottom-bar {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+    background: #695519;
+    color: #fff;
+}
